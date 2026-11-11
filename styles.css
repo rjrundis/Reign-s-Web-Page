@@ -1,0 +1,219 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff0fa;
+  color: #352044;
+  margin: 0;
+}
+
+/* Banner and Header */
+header {
+  background-color: #7928a1;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+
+/* Banner picture */
+.banner-image {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  object-position: center 20%;
+  display: block;
+  border-radius: 8px;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+/* Sidebar */
+nav {
+  float: left;
+  width: 30%;
+  min-height: 300px;
+  background-color: #f4c7f8;
+  padding: 20px;
+}
+
+nav h2 {
+  color: #57207e;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #57207e;
+  font-size: 18px;
+}
+
+/* Main Content */
+article {
+  float: left;
+  width: 70%;
+  padding: 25px;
+  background-color: #fff7fd;
+  overflow: hidden;
+}
+
+article h2 {
+  color: #8a248d;
+  font-size: 26px;
+}
+
+article p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Moving Welcome Message */
+.welcome {
+  font-size: 25px;
+  font-weight: bold;
+  color: #8a248d;
+  white-space: nowrap;
+  width: max-content;
+  animation: moving 10s linear infinite;
+}
+
+@keyframes moving {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(100vw);
+  }
+}
+
+/* Kesha Pictures */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.gallery figure {
+  margin: 0;
+}
+
+.gallery img {
+  width: 200px;
+  max-width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border: 3px solid #9b4f96;
+  border-radius: 8px;
+}
+
+figcaption {
+  text-align: center;
+  color: #57207e;
+  padding: 8px;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 2px solid #9b50a4;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #ebc4f2;
+}
+
+/* Video and Audio */
+video {
+  max-width: 100%;
+}
+
+audio {
+  max-width: 100%;
+}
+
+/* Clear Columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+footer {
+  clear: both;
+  background-color: #592276;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #ffe5ff;
+}
+
+/* Mobile Layout */
+@media (max-width: 600px) {
+  nav, article {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .welcome {
+    animation: none;
+  }
+}
+
+/* Make sidebar stretch to the bottom */
+section {
+  display: flex;
+  align-items: stretch;
+}
+
+nav {
+  float: none;
+  width: 30%;
+  background-color: #f4c7f8;
+}
+
+article {
+  float: none;
+  width: 70%;
+  flex: 1;
+}
+
+/* Keep the layout mobile friendly */
+@media (max-width: 600px) {
+  section {
+    flex-direction: column;
+  }
+
+  nav, article {
+    width: 100%;
+  }
+}
+

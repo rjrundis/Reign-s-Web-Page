@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Reign's Web Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+
+  <link href="styles.css" rel="stylesheet">
+
+  <link href="iconimage.ico"
+        type="image/x-icon"
+        rel="icon">
+</head>
+
+<body>
+
+
+<header>
+  <img src="banner.jpg"
+       alt="Kesha website banner"
+       class="banner-image">
+
+  <h1>My Favorite Artist: Kesha</h1>
+  <p>Music, Creativity, and Confidence</p>
+</header>
+
+
+<section>
+
+  
+  <nav aria-label="Website navigation">
+
+    <h2>Explore Kesha</h2>
+
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+
+      <li>
+        <a href="https://store.keshaofficial.com/collections/music">
+          Kesha's Music Releases
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+
+  <article>
+
+    <div class="welcome">
+      &#10024; Welcome to Reign's Page! &#10024;
+    </div>
+
+    <h2>Why I Chose Kesha</h2>
+
+    <p>
+      Kesha is my favorite artist because ever since
+      I was a little girl, I have always loved her
+      music. She gives me the diva vibes I need to
+      keep moving forward through everything.
+      Her songs can be energetic and fun, but she
+      also has music that is emotional and meaningful.
+      I like artists who are not afraid to try
+      different sounds, and Kesha has done that
+      throughout her career. Her music reminds me
+      that there is more than one way to express
+      yourself.
+    </p>
+
+    <h2>Her Music and Career</h2>
+
+    <p>
+      Kesha became widely known for catchy pop
+      songs like "TiK ToK" and "Your Love Is My Drug."
+      Over time, she released music with different
+      moods and styles. Albums such as Animal,
+      Warrior, Rainbow, and Gag Order show how
+      her sound has changed. What stands out to
+      me is how she balances upbeat music with
+      songs that tell a more personal story.
+      Listening to different parts of her career
+      shows how an artist can grow without
+      losing her identity.
+    </p>
+
+    <h2>Why Music Matters to Me</h2>
+
+    <p>
+      I have spent a lot of time around music
+      because I played the violin, so I appreciate
+      how music can affect people's emotions.
+      I enjoy listening to different genres,
+      and Kesha is one artist I keep coming back to.
+      Sometimes I want something upbeat, and
+      other times I want music that feels meaningful.
+      I like that music gives people freedom
+      to be themselves. That is one reason
+      I wanted to make my first website
+      about an artist I enjoy.
+    </p>
+
+    <hr>
+
+    <!-- Kesha Photo Gallery -->
+    <h2>Kesha Photo Gallery</h2>
+
+    <div class="gallery">
+
+      <figure>
+        <img src="Kesha.jpg"
+             alt="Kesha with blonde hair wearing a black outfit">
+        <figcaption>Kesha Portrait</figcaption>
+      </figure>
+
+      <figure>
+        <img src="Kesha2.jpg"
+             alt="Cover art for Kesha's Animal album">
+        <figcaption>Animal Album Cover</figcaption>
+      </figure>
+
+      <figure>
+        <img src="Kesha3.jpg"
+             alt="Kesha wearing sunglasses and a red skirt">
+        <figcaption>Kesha Photoshoot</figcaption>
+      </figure>
+
+    </div>
+
+    <hr>
+
+   
+    <h2>Popular Kesha Songs</h2>
+
+    <ol>
+      <li>TiK ToK</li>
+      <li>Your Love Is My Drug</li>
+      <li>We R Who We R</li>
+      <li>Die Young</li>
+      <li>Praying</li>
+    </ol>
+
+    
+    <h2>Kesha Albums</h2>
+
+    <ul>
+      <li>Animal</li>
+      <li>Warrior</li>
+      <li>Rainbow</li>
+      <li>High Road</li>
+      <li>Gag Order</li>
+    </ul>
+
+    <hr>
+
+   
+    <h2>Selected Kesha Albums</h2>
+
+    <table>
+      <caption>Examples of Kesha's Studio Albums</caption>
+
+      <thead>
+        <tr>
+          <th scope="col">Album</th>
+          <th scope="col">Release Year</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Animal</td>
+          <td>2010</td>
+        </tr>
+
+        <tr>
+          <td>Warrior</td>
+          <td>2012</td>
+        </tr>
+
+        <tr>
+          <td>Rainbow</td>
+          <td>2017</td>
+        </tr>
+
+        <tr>
+          <td>Gag Order</td>
+          <td>2023</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr>
+
+    
+    <h2>Kesha Video</h2>
+
+    <video controls width="480">
+      <source src="KeshaVideo.mp4"
+              type="video/mp4">
+      Your browser does not support video.
+    </video>
+
+    <p>
+      This video features Kesha, my favorite
+      musical artist. I included this video
+      because I enjoy her music, creativity,
+      and personality.
+    </p>
+
+   
+    <h2>Audio</h2>
+
+    <audio controls>
+      <source src="AudioSample.mp3"
+              type="audio/mpeg">
+      Your browser does not support audio.
+    </audio>
+
+    <p>
+      This audio recording is included as part
+      of my ITE 152 website project.
+      It demonstrates how audio can be played
+      directly from a webpage.
+    </p>
+
+  </article>
+
+</section>
+
+
+<footer>
+  <p>
+    Created by Reign |
+
+    <a href="mailto:rej24011@email.vccs.com">
+      rej24011@email.vccs.edu
+    </a>
+  </p>
+</footer>
+
+</body>
+</html>
